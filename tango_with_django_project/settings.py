@@ -28,6 +28,8 @@ SECRET_KEY = 'a$&loe_@w414j7-rbqsh4ofh!n942()yrw#=ju9!6-&@0c@ypx'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 ALLOWED_HOSTS = []
 
 
